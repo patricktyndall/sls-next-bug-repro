@@ -1,0 +1,20 @@
+{
+  "name": "sls-next-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "next.config.js",
+  "scripts": {
+    "start": "next build && next start",
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./node_modules/serverless/bin/serverless.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "serverless": "^2.21.1"
+  }
+}
